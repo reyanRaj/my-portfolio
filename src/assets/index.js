@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -26,6 +26,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import crowfunding from "./crowfunding.png"
+import storybooks from './storybooks.png'
+import chatsea from './chatsea.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -56,6 +59,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  crowfunding,
+  storybooks,
+  chatsea,
   carrent,
   jobit,
   tripguide,

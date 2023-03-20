@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  crowfunding,
+  storybooks,
+  chatsea
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -71,10 +74,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -107,10 +106,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -172,24 +167,24 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "Mr reyanharsh, is an excellent coder. He understood all specs pretty well and delivered excellent product. recommended 10/10 👍",
+    name: "alifarhad376",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Fantastic experience with this seller. Always willing to help and fully understand the project. I’m a repeat buyer and will always recommend him everyday. He’s a nice person and interested in seeing your project succeed. Totally hire him",
+    name: "odiorc",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "It was great working with reyanharsh and delivered excellent work!! Extremely patient and implemented all the multiple modifications suggested. Dedicated and talented!!",
+    name: "sirishach351",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -198,16 +193,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CrowdFunding",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full stack website built using modern web3 technologies. This project uses Solidity + React. In this web application, users can post their projects and raise funds in the form of ethers on it.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +210,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    live_url: "https://github.com/",
+    image: crowfunding,
+    live_url: "https://crowdfundnow.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Chat Sea",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A landing page that is designer for a chatting application. This is well designed keeping in view the application objective and color schema.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    live_url: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "animation",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    live_url: "https://github.com/",
+    image: chatsea,
+    live_url: "https://reyanraj.github.io/App-Landing-Page/",
+  },
+  {
+    name: "Story Books",
+    description:
+      "An online story-sharing website. It is built in Node.js + EJS + MongoDB + Express.js. On this website, users can log in using their google account and then share their own stories and make them public so that anyone in the world can see them.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: storybooks,
+    live_url: "https://different-dog-cloak.cyclic.app/",
   },
 ];
 

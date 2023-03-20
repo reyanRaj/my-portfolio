@@ -14,6 +14,7 @@ const Contact = () => {
     name: '',
     email: '',
     message: '',
+    surpriseCode: ''
   })
   const [loading, setloading] = useState(false)
 
@@ -28,19 +29,21 @@ const Contact = () => {
     e.preventDefault()
     setloading(true)
 
-    emailjs.send("service_e89syl9", "template_6opgwke", {
+    emailjs.send("service_e89syl9", "template_hfm3ja8", {
       from_name: form.name,
       to_name: 'Reyan',
       from_email: form.email,
       to_email: 'reyanraj234@gmail.com',
-      message: form.message
+      message: form.message,
+      surprise_code: form.surpriseCode,
     }, "KIuQZFQGULVop0dZb").then(() => {
       setloading(false)
       alert('Thanks you. I will get back to your as soon as possible.')
       setform({
         name: '',
         email: '',
-        message: ''
+        message: '',
+        surpriseCode: ''
       })
     }, (error) => {
       setloading(false)
@@ -76,6 +79,17 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email"
+              className='bg-tertiary py-4 px-6 text-white placeholder:text-secondary rounded-lg outline-none border-none font-medium'
+            />
+          </label>
+          <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Surprise Code</span>
+            <input
+              type="text"
+              name='surpriseCode'
+              value={form.surpriseCode}
+              onChange={handleChange}
+              placeholder="Do you have any code ?"
               className='bg-tertiary py-4 px-6 text-white placeholder:text-secondary rounded-lg outline-none border-none font-medium'
             />
           </label>

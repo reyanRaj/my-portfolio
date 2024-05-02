@@ -25,7 +25,10 @@ import {
   threejs,
   crowfunding,
   storybooks,
-  chatsea
+  chatsea,
+  onlinepicresizer,
+  uprighttrades,
+  nocopycats
 } from "../assets";
 
 export const navLinks = [
@@ -167,6 +170,22 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
+      "This seller is an asset to this community, he's quick, friendly, & everything works great and is awesome. Thanks again!",
+    name: "uprighttrading",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    testimonial:
+      "Very satisfied with the work Reyan's provided. He understood what I need in term of design and functionality, and did exactly the same. I strongly recommend his services!",
+    name: "hanan_developer",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    testimonial:
       "Mr reyanharsh, is an excellent coder. He understood all specs pretty well and delivered excellent product. recommended 10/10 👍",
     name: "alifarhad376",
     designation: "CFO",
@@ -192,6 +211,69 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Online Pic Resizer",
+    description:
+      "Online PIc Resizer, as the name suggests, is an online tool website that is designed to help the users to resize the images online for free.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next-js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: onlinepicresizer,
+    live_url: "https://onlinepicresizer.com/",
+  },
+  {
+    name: "UPRIGHT Trading",
+    description:
+      "This is a WordPress website based on WooCommerce for E-Commerce functionality. It has an autamated system that automatically grants access to the user whenever a new subscription is purchased / renewed.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "woocommerce",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "violet-text-gradient",
+      },
+    ],
+    image: uprighttrades,
+    live_url: "https://uprighttrades.com/",
+  },
+  {
+    name: "NoCopyCats",
+    description:
+      "Nocopycats is an online tool website i.e designed for institutions and agents to check the plagiarism of content. This web app is built on the Node.js + Expres.js + EJS platform.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nocopycats,
+    live_url: "https://nocopycats.com/",
+  },
   {
     name: "CrowdFunding",
     description:

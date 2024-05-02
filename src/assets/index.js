@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./Develop Pie.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -27,6 +27,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import crowfunding from "./crowfunding.png"
+import onlinepicresizer from "./onlinepicresizer.png"
+import uprighttrades from "./uprighttrades.png"
+import nocopycats from "./nocopycats.com_.jpg"
 import storybooks from './storybooks.png'
 import chatsea from './chatsea.png'
 import carrent from "./carrent.png";
@@ -60,6 +63,9 @@ export {
   starbucks,
   tesla,
   crowfunding,
+  onlinepicresizer,
+  nocopycats,
+  uprighttrades,
   storybooks,
   chatsea,
   carrent,
